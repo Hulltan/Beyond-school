@@ -72,3 +72,25 @@ switch(jesulenMaisVelho){
         console.log('Indeterminado')
         break
 } */
+
+/**
+ * @description Objetos
+ */
+
+/* 
+ const person = {
+     name: 'Jesulen',
+     age: 23
+ }
+
+ const food = {
+    name: 'Pizza'
+ }
+
+ const aluno = person
+ aluno.name = 'Thami'
+ console.log('Person', person) */
+
+ /**
+  * 
+  */
