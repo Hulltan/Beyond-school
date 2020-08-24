@@ -41,7 +41,7 @@
   * @description if/else, ternário, switch, valores falsos e verdadeiros
   */
 
- let likePacoca, hasPacoca
+/*  let likePacoca, hasPacoca
  likePacoca = true
  hasPacoca = true
 
@@ -71,4 +71,4 @@ switch(jesulenMaisVelho){
     default:
         console.log('Indeterminado')
         break
-}
+} */
