@@ -120,3 +120,44 @@ switch(jesulenMaisVelho){
   result = fullName(...['Jesulen', 'Silva'])
 
   console.log(result) */
+
+/**
+ * @description Loops
+ */
+/* 
+ const person = {
+    name: 'Jesulen',
+    age: 23
+ }
+ const arr = ['Jesulen', 'Vicente']
+
+ for(let i = 0; i < 6; i++){
+     console.log(i)
+ }
+ // for ... in 
+ for (e in person) {
+     console.log(e, person[e])
+ }
+
+ // for ... of - Ideal para arrays, pois sempre vai do meenor índice pro maior
+ for (let e of arr) {
+     console.log(e)
+ }
+
+ // forEach
+
+ function show(name){
+     console.log(name)
+ }
+
+ arr.forEach(show) */
+
+ /**
+  * @description Escopo
+  */
+
+  let age = 23
+  if (age >= 18){
+      const name = "Jesulen"
+      console.log(`${name} e adulto`)
+  }
