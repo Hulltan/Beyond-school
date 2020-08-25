@@ -92,5 +92,31 @@ switch(jesulenMaisVelho){
  console.log('Person', person) */
 
  /**
-  * 
+  * @description Arrays
   */
+
+ // Arrays podem conter varios tipos de daos por ser um objeto
+ /* 
+ const arr = ['Jesulen', 23, person]
+ console.log(arr) */
+
+
+/**
+  * @description Funções
+  */
+/* 
+  function joiner (...arr){
+      const result = arr.join(', ')
+      return result
+  }
+
+  let result = joiner(["Jesulen", "Thami"])
+  console.log(result)
+
+  function fullName(firstName, lastName){
+      return firstName + ' ' + lastName
+  }
+
+  result = fullName(...['Jesulen', 'Silva'])
+
+  console.log(result) */
