@@ -155,9 +155,40 @@ switch(jesulenMaisVelho){
  /**
   * @description Escopo
   */
-
+/* 
   let age = 23
   if (age >= 18){
       const name = "Jesulen"
       console.log(`${name} e adulto`)
+  } */
+
+  /**
+   * @description Promisse
+   * @param {number} time Tempo de espera antes da mensagem de boas vindas
+   */
+/* 
+  function waitBeforeWelcome (time) {
+    const barrier = new Promise((resolve, reject) => {
+        if (time < 10000){
+            setTimeout(() => {
+               resolve() 
+            }, time)
+        } else {
+            const error = new Error('Time must be less than 10 seconds')
+            reject(error)
+        }
+    })
+
+    barrier
+    .then(() => {
+        console.log("Welcome to the jungle!")
+    })
+    .catch((error) => {
+        console.log(error)
+    })
   }
+  waitBeforeWelcome(9000) */
+
+  /**
+   * @description
+   */
