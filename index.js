@@ -190,5 +190,37 @@ switch(jesulenMaisVelho){
   waitBeforeWelcome(9000) */
 
   /**
-   * @description
+   * @description Função assíncrona e await
    */
+
+  async function waitBeforeWelcome (time) {
+    let msg
+    const welcome = new Promise((resolve, reject) => {
+        if (time < 10000){
+            setTimeout(() => {
+               resolve("Welcome to the jungle") 
+            }, time)
+        } else {
+            const error = new Error('Time must be less than 10 seconds')
+            reject(error)
+        }
+    })
+
+    const presentation = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("My name is Jesulen")
+        }, 5000)
+    })
+
+    try{
+        msg = await welcome
+        console.log(msg)
+
+        msg = await presentation
+        console.log(msg)
+
+    } catch (error) {
+        console.log(error)
+    }
+  }
+  waitBeforeWelcome(9000) 
