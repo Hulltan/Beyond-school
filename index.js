@@ -192,7 +192,7 @@ switch(jesulenMaisVelho){
   /**
    * @description Função assíncrona e await
    */
-
+/* 
   async function waitBeforeWelcome (time) {
     let msg
     const welcome = new Promise((resolve, reject) => {
@@ -223,4 +223,42 @@ switch(jesulenMaisVelho){
         console.log(error)
     }
   }
-  waitBeforeWelcome(9000) 
+  waitBeforeWelcome(9000)  */
+
+  /**
+   * @description classes
+   */
+/* 
+   class Robot{
+       constructor(name = 'nanashii', x=0, y=0){
+           this.name = name
+           this.x = x
+           this.y = y
+       }
+
+       walkFoward(){
+           this.x++
+       }
+
+       walkbackward(){
+           this.x--
+       }
+
+       teleport(x, y){
+           this.x = x
+           this.y = y
+       }
+
+       getPos(){
+           return [this.x, this.y]
+       }
+   }
+
+   const robot = new Robot('Hana', 1, 2)
+
+   robot.walkFoward()
+   console.log(robot.getPos())
+   robot.walkbackward()
+   console.log(robot.getPos())
+   robot.teleport(15, 25)
+   console.log(robot.getPos()) */
